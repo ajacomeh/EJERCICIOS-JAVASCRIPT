@@ -1,0 +1,171 @@
+let num1 = 6;
+let num2 = 3;
+let resultado;
+
+if (num1 > num2) {
+  resultado = num1 + num2;
+  console.log(resultado);
+} else {
+  console.log("El primer número no es mayor que el segundo número.");
+}
+
+
+
+
+let num1 = 10;
+let num2 = 5;
+let operador = "+";
+
+if (operador === "+") {
+  let resultado = num1 + num2;
+  console.log(resultado);
+} else if (operador === "-") {
+  let resultado = num1 - num2;
+  console.log(resultado);
+} else if (operador === "*") {
+  let resultado = num1 * num2;
+  console.log(resultado);
+} else if (operador === "/") {
+  let resultado = num1 / num2;
+  console.log(resultado);
+} else if (operador === "%") {
+  let resultado = num1 % num2;
+  console.log(resultado);
+} else {
+  console.log("Operador no válido");
+}
+
+
+
+let num1 = 6;
+let num2 = 3;
+
+if (num1 > num2) {
+  console.log("El mayor número es: " + num1);
+} else if (num2 > num1) {
+  console.log("El mayor número es: " + num2);
+} else {
+  console.log("Ambos números son iguales.");
+}
+
+
+let nombre = "Aaron";
+console.log("Mi nombre es " + nombre);
+
+
+
+let valorCompra = 1000;
+let iva = 0.12;
+let total = valorCompra + (valorCompra * iva);
+
+console.log("El valor total de la compra es: " + total);
+
+
+
+let nombre = "Aaron";
+
+for (let i = 1; i <= 5; i++) {
+  console.log(nombre);
+}
+
+
+
+
+for (let i = 3; i <= 21; i++) {
+  if (i % 3 === 0) {
+    console.log(i);
+  }
+}
+
+
+
+for (let i = 21; i >= 3; i--) {
+  if (i % 3 === 0) {
+    console.log(i);
+  }
+}
+
+
+
+let nombre1 = "Aaron";
+let nombre2 = "Juan";
+
+if (nombre1 === nombre2) {
+  console.log("Los nombres son iguales");
+} else {
+  console.log("Los nombres son diferentes");
+  
+  
+  
+  
+  
+  let numeros = [12, 456, 78, 9, 345, 1, 67, 89, 23, 5];
+
+for (let i = 0; i < numeros.length; i++) {
+  if (numeros[i].toString().length < 5) {
+    console.log(numeros[i]);
+  }
+}
+
+
+
+
+let arreglo = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arreglo.length; i++) {
+  console.log(arreglo[i]);
+}
+
+
+
+
+let numeros = [12, 3, 7, 9, 21, 5, 8, 1];
+
+for (let i = 0; i < numeros.length; i++) {
+  if (numeros[i] < 10) {
+    console.log(numeros[i]);
+  }
+}
+
+
+
+
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let sumaPares = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+  if (numeros[i] % 2 !== 0) {
+    console.log(numeros[i] + " es impar");
+  } else {
+    sumaPares += numeros[i];
+  }
+}
+
+console.log("La suma de los números pares es: " + sumaPares);
+
+
+
+
+let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let primerValor = arreglo[0];
+let ultimoValor = arreglo[arreglo.length - 1];
+let valorMedio = arreglo[Math.floor(arreglo.length / 2)];
+
+console.log("El primer valor es: " + primerValor);
+console.log("El valor medio es: " + valorMedio);
+console.log("El último valor es: " + ultimoValor);
+
+
+
+let costo = 250;
+let pago = 500;
+
+let vuelto = pago - costo;
+
+if (vuelto >= 0) {
+  console.log("El vuelto es: " + vuelto);
+} else {
+  console.log("El pago no es suficiente");
+}
+
